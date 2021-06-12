@@ -1,0 +1,57 @@
+*{
+  box-sizing:border-box
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: "arial unicode ms", sans-serif;
+}
+
+header {
+  background-color: rgba(255, 99, 71,0.8);
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-logo{
+  width: 180px;
+  padding: 0 15px;
+}
+
+.main-content{
+  color: white;
+  font-size: 25px;
+  line-height: 70px;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.header-right :hover{
+  background-color: rgba(255, 239, 213,0.3);
+}

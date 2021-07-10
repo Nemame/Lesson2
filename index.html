@@ -4,28 +4,216 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Neme's farm</title>
-  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
   <link rel="stylesheet" href="resposive.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="top.js"></script>
 </head>
   
 <body>
   <header>
     <div class="header-left">
-      <img class="header-logo" src="logo2.png2.png" alt="トマト">
+      <img class="header-logo" src="C:\Users\s-kaz\Desktop\Lesson2\Images\logo2.png" alt="トマト">
     </div>
 
     <div class="header-right">
       <div class="main-content">
-        <a href="#" id="home">Home</a>
-        <a href="#" id="about">About</a>
-        <a href="#" id="access">Access</a>
-        <a href="#" id="news">News</a>
-        <a href="#" id="contact">contact</a>
+        <a href="#home">Home</a>
+        <a href="#aboutus" >About</a>
+        <a href="#access">Access</a>
+        <a href="#news">News</a>
+        <a href="#contacts">Contact</a>
       </div>
     </div>
   </header>
 
+  <div class="format">
+    <div class="top effect-fade"  id="home">
+      <h1 id="title">Neme's farm</h1>
+      <p id="subtitle">We provide sweet tomato maked everyone smile.
+      <br>私たちが作っているのは、トマト嫌いがトマト嫌いの人に贈る最高級のトマトです。</p>
+    </div>
+  </div>
+
+  <div class="format">
+    <div class="informations">
+      <div class="information">
+      <div class="icons-mini">
+        <h2>Information</h2>
+      </div>
+      <div class="information-content">   
+      <a href="#">7/23は直売所お休みです。その他の定休日はこちらからご確認下さい。</a>
+      </div>
+      </div>
+    </div>
+
+    <div id="aboutus" class="effect-fade">
+      <div class="about-title">
+        <div class="icons">
+          <h2>About Us</h2>
+        </div>
+        <div class="description about">
+          <p>元営業マンのトマト嫌いが、脱サラして自分でも食べれるトマトを作っています。
+            <br>是非私たちのことを知って、愛情たっぷりのトマトを試してみて下さい。
+          </p>
+        </div>
+      </div>
+      <div class="about-contents">
+        <div class="about-content">
+          <img src="Images\Image-Takahiro２.png" alt="生産者">
+          <div class="content">
+            <p>Takahiro Nemezawa</p>
+          </div> 
+        </div>
+
+        <div class="about-content">
+          <img src="Images\Image-Maya２.png" alt="生産者">
+          <div class="content">
+            <p>Maya Nemezawa</p>
+          </div> 
+        </div>
+
+        <div class="about-content">
+          <img src="Images\Image-Takahiro２.png" alt="その他">
+          <div class="content">
+            <p>Others</p>
+          </div> 
+        </div>
+
+        <div class="about-more more" id="more">
+          <a href="">and More!</a>
+        </div>
+
+      </div>
+
+      <div class="about-contents-others effect-fade">
+        <div class="about-contents-other">
+          <div class="icons-sub">
+            <h2 id="concept">Concept</h2>
+          </div>
+          <div class="concept-image">
+            <img id="house" src="Images\House.png" alt="ハウス">
+            <img id="tomato" src="Images\Tomato.png" alt="トマト">
+            <div class="concept description">
+              <p>トマト嫌いでも食べる、甘くて<br>ジューシーなトマトを目指しました。
+              <br>色んな料理に合うよう、調理方法別に<br>様々な品種に挑戦しています。</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-contents-other menus">
+          <div class="icons-sub">
+            <h2>Menu</h2>
+          </div>
+          <div class="menu-content" id="menu">
+              <img id="jam" class="menu-image" src="Images\jam.png" alt="ジャム">
+              <img id="pasta" class="menu-image" src="Images\pasta.png" alt="パスタ">
+            <div class="menu description">
+              <p>当農園のトマトを使った、<br>様々な加工商品もご用意しております。</p>
+              <div class="menu-more more">
+                <a href="">and<br>More!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="access-contents effect-fade" id="access">
+        <div class="access-content">
+          <div class="icons">
+            <h2>Access</h2>
+          </div>
+          <div class="description access">
+            <p>お車でお越しの方：<br>関越道「川越IC」を降りてから15分程度。<br>国道16号を入間方面に向い、狭山市駅方面へ
+              <br>
+              <br>電車でお越しの方：<br>西武新宿線 狭山市駅東口から西武バス「狭山台ハイツ」で下車後、徒歩5分
+            </p>
+          </div>
+        </div>
+        <div class=maps>
+          <img class="map car" src="Images\Map-Car.png">
+          <img class="map train" src="Images\Map-Train.png">
+        </div>
+      </div>
+
+      <div id="news">
+        <div class="icons">
+          <h2>News</h2>
+        </div>
+        <div class="news-content">
+          <ul>
+            <li><span>New!</span>糖度10度のフルーツトマトを使用した、トマトジャムの販売をはじめました！</li>
+            <li>食べ時の熟れトマトのSALEを行います。</li>
+            <li>アグレッシュ川越店でも当農園のトマトがお買い求めいただけるようになりました。</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="contacts">
+        <div class="contact-title">
+          <div class="contact-icon">
+            <h2>Contact</h2>
+          </div>
+          <div class="description contact">
+              <a  href="">お問い合わせはこちらから<span class="mail far fa-envelope"></span></a>
+          </div>
+        </div>
+        
+        <div class="social-icons">
+          <a class="btn twitter" href="https://twitter.com/maaaasaANDpop"><span class="fab fa-twitter"></span>Twitter</a>
+          <a class="btn instaglam" href="https://www.instagram.com/lapin_tomato_farm/"><span class="fab fa-instagram"></span>instaglam</a>
+          <a class="btn facebook" href="https://ja-jp.facebook.com/greenfarmlapin"><span class="fab fa-facebook-f"></span>facebook</a>
+        </div>
+        <h3>Look more us!</h3>
+      </div>
+  </div>
+
+  <footer>
+    
+    <div class="footer-left">
+        <img class="footer-logo" src="Images\footer-logo.png" alt="Neme's form">
+      </div>
+  
+      <div class="footer-right">
+        <div class="footer-main-content">
+
+          <a href="#home">Home</a>
+
+          <div class="footer-about">
+            <a href="#aboutus" >About Us</a>
+              <div class="footer-content-list">
+                <ul>
+                  <li><a href="#more">Ours History</a></li>
+                  <li><a href="#concept">Concept</a></li>
+                  <li><a href="#menu">Menu</a></li>
+                </ul>
+              </div>
+          </div>
+
+          <a href="#access">Access</a>
+          <a href="#news">News</a>
+
+          <div class="footer-contact">
+            <a href="#contacts">Contact</a>
+            <div class="footer-content-list">
+              <ul>
+                <li>〒355-0806<br>埼玉県比企郡滑川町大字伊古404番地</li>
+                <li>Tel:0493－56－5251</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="copy-right">
+          <p>Copyright c 2021-2022 Nememaya All Rights Reserved</p>
+        </div>
+
+      </div>
+  </footer>
+ 
 </body>
 
 </html>

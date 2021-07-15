@@ -1,5 +1,9 @@
 @media all and (max-width: 670px){
     
+    .menu-icon{
+        display: block;
+    }
+    
     .top{
         margin-top: 30px;
         background-image: url(top.jpg);

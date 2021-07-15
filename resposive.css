@@ -1,0 +1,13 @@
+@media all and (max-width: 670px){
+    
+    .format{
+        width: 100%;
+    }
+
+    .header-right{
+        display: none;
+    }
+
+    
+
+}

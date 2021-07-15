@@ -1,7 +1,8 @@
 @media all and (max-width: 670px){
     
-    .format{
-        width: 100%;
+    .top{
+        height: 300px;
+        margin-top: 10%;
     }
 
     .header-right{

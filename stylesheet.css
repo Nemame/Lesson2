@@ -60,12 +60,18 @@ header {
 
 .menu-icon{
   float: right;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  padding: 21px 15px;
   display: none;
 }
 
-.fas{
-  color: white;
+.menu-icon :hover{
+  background-color: rgba(255, 239, 213,0.3);
+  transition: all 1s;
 }
+
 
 .format{
   width: 90%;

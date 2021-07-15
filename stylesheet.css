@@ -58,6 +58,15 @@ header {
   transition: all 1s;
 }
 
+.menu-icon{
+  float: right;
+  display: none;
+}
+
+.fas{
+  color: white;
+}
+
 .format{
   width: 90%;
   margin: 0 auto;

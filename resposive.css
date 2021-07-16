@@ -15,12 +15,15 @@
     }
     
     .top h1{
-        letter-spacing: 2px;
-        font-size: 30px;
+        letter-spacing: 5px;
+        font-size: 50px;
+        top: 10%;
+        left: 40%;
     }
 
     .top p{
-        font-size: 5px;
+        top: 80%;
+        left: 10%;
     }
     
     .informations{
@@ -50,6 +53,26 @@
         font-size: 15px;
         line-height: 30px;
     }
+    
+    .about-title{
+        display: block;
+        margin-top: 60px;
+    }
+    
+    .description{
+        font-size: 10px;
+    }
+    
+    .about-content{
+        height: 100px;
+        width: 100%;
+    }
+    
+    .content {
+        font-size: 5px;
+    }
+    
+    
 
     
     .footer-main-content a{

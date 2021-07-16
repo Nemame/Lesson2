@@ -11,23 +11,21 @@
     .top{
         margin-top: 90px;
         width: 100%;
-        height: 200px;
+        height: 300px;
     }
     
     .top h1{
-        letter-spacing: 5px;
-        font-size: 50px;
+        letter-spacing: 3px;
+        font-size: 45px;
         top: 10%;
         left: 40%;
+        opacity: 1;
     }
 
     .top p{
-        top: 80%;
+        font-size: 10px;
+        top: 70%;
         left: 10%;
-    }
-    
-    .informations{
-        display: block;
     }
     
     .information{
@@ -43,16 +41,16 @@
     }
     
     .icons h2{
-        font-size: 20px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 50px;
     }
 
     .icons-mini h2{
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .icons-sub{
-        padding: 5px 15px;
+        padding: 5px 10px;
         font-size: 15px;
         line-height: 30px;
     }
@@ -63,7 +61,12 @@
     }
     
     .description{
-        font-size: 10px;
+        font-size: 15px;
+    }
+    
+    .about-contents{
+        margin-top: 10px; 
+        display: block;
     }
     
     .about-content{
@@ -72,7 +75,7 @@
     }
     
     .content {
-        font-size: 10px;
+        font-size: 15px;
     }
     
     .about-more{

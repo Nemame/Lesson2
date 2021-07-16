@@ -4,15 +4,53 @@
         display: block;
     }
     
+    .header-right{
+        display: none;
+    }
+    
     .top{
         margin-top: 90px;
         width: 100%;
         height: 200px;
     }
-
-    .header-right{
-        display: none;
+    
+    .top h1{
+        letter-spacing: 2px;
+        font-size: 30px;
     }
+
+    .top p{
+        font-size: 5px;
+    }
+    
+    .informations{
+        display: block;
+    }
+    
+    .icons{
+        padding: 5px 10px;
+    }
+    
+    .icons-mini{
+        padding: 3px 10px;
+    }
+    
+    .icons h2{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .icons-mini h2{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .icons-sub{
+        padding: 5px 15px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
     
     .footer-main-content a{
       display: none;

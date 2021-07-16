@@ -4,6 +4,10 @@
         display: block;
     }
     
+    .header-logo{
+        width: 100px;
+    }
+    
     .header-right{
         display: none;
     }
@@ -114,6 +118,28 @@
     .concept{
         position: static;
         margin-left: 0px;
+    }
+    
+    .menus{
+        margin-top: 30px;
+    }
+    
+    .menu-content{
+        display: block;
+    }
+    
+    .menu-image{
+        height: 70%;
+        width: 50%;
+    }
+    
+    .menu{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .menu-more{
+        position: static;
     }
     
     .access-contents{

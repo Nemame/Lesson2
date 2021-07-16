@@ -16,6 +16,7 @@
     
     .top h1{
         letter-spacing: 3px;
+        line-height: 5px;
         font-size: 60px;
         top: 15%;
         left: 40%;
@@ -23,7 +24,7 @@
     }
 
     .top p{
-        font-size: 12px;
+        font-size: 13px;
         top: 50%;
         left: 40%;
         opacity: 1;
@@ -35,11 +36,11 @@
     
     .icons{
         padding: 5px 10px;
-        margin: auto 0;
+        margin: 0 auto;
     }
     
     .icons-mini{
-        margin: auto 0;
+        margin: 0 auto;
     }
     
     .icons h2{
@@ -49,6 +50,7 @@
 
     .icons-mini h2{
         font-size: 20px;
+        text-align: center;
     }
 
     .icons-sub{
@@ -74,12 +76,12 @@
     .about-content{
         height: 100px;
         width: 100%;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     
     .about-content img{
         padding-right: 0px;
-        object-fit: contain;
+        object-position: 100% 0%;
     }
     
     .content {
@@ -88,16 +90,16 @@
     
     .about-more{
         height: 50px;
+        padding-top: 10px;
     }
 
     .about-more a{
-        position: absolute;
-        bottom: 50;
-        left: 50;
+        position: static;
     }
 
     .more a{
         font-size: 30px;
+        text-align: center;
     }
     
     .about-contents-others{
@@ -107,6 +109,11 @@
     
     .about-contents-other{
         width: 100%;
+    }
+    
+    .concept{
+        position: static;
+        margin-left: 0px;
     }
     
     .access-contents{

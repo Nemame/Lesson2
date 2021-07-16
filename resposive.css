@@ -20,7 +20,7 @@
     
     .top h1{
         letter-spacing: 3px;
-        line-height: 5px;
+        line-height: 1.5em;
         font-size: 60px;
         top: 15%;
         left: 40%;
@@ -38,13 +38,17 @@
         display: block;
     }
     
+    .information-content a{
+        margin-left: 0px;
+    }
+    
     .icons{
         padding: 5px 10px;
-        margin: 0 auto;
+        text-align: center;
     }
     
     .icons-mini{
-        margin: 0 auto;
+        text-align: center;
     }
     
     .icons h2{
@@ -68,6 +72,10 @@
         margin-top: 60px;
     }
     
+    .about{
+        margin: 20px 0;
+    }
+    
     .description{
         font-size: 15px;
     }
@@ -78,14 +86,15 @@
     }
     
     .about-content{
-        height: 100px;
+        height: 200px;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     
     .about-content img{
         padding-right: 0px;
         object-position: 100% 0%;
+        margin-top; 10px;
     }
     
     .content {
@@ -93,17 +102,16 @@
     }
     
     .about-more{
-        height: 50px;
-        padding-top: 10px;
+        margin-top: 10px;
     }
 
     .about-more a{
         position: static;
+        text-align: center;
     }
 
     .more a{
         font-size: 30px;
-        text-align: center;
     }
     
     .about-contents-others{
@@ -115,6 +123,14 @@
         width: 100%;
     }
     
+    .concept-image{
+        height: 500px;
+    }
+
+    #house{
+        top: 50;
+    }
+  
     .concept{
         position: static;
         margin-left: 0px;
